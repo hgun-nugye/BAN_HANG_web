@@ -144,10 +144,8 @@ a {
 }
 
 .box-user-icon i:last-child {
-  margin-left: 20px;
+  margin-left: 18px;
   padding: 8px;
-  color: white;
-  background-color: #db4344;
   border-radius: 50%;
 
 }
@@ -248,10 +246,16 @@ a {
   background-color: #e33737;
 }
 
+.bg-element:hover .icon {
+  color: black;
+  background-color: white;
+  border: 10px solid rgba(210, 195, 195, 0.9);
+  border-radius: 50%;
+}
+
 .about-main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  font-size: 14px;
   margin: 100px 0;
 }
 
