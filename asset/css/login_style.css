@@ -116,27 +116,24 @@ a {
 }
 
 .box-user {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 30%;
-  padding: 0 10px;
-
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .search {
-  width: 80%;
   height: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #f5f5f5;
   padding: 0 10px;
-
+  width: 78%;
 }
 
 .search input {
-  width: 90%;
+  width: 100%;
   border: none;
   outline: none;
   background-color: transparent;
