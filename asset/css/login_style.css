@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+i:hover {
+  cursor: pointer;
+}
+
 .textcent {
   text-align: center;
 }
@@ -193,7 +197,8 @@ a {
   align-items: center;
 
 }
-.login-section p{
+
+.login-section p {
   color: rgb(226, 37, 56);
 }
 

@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+i:hover {
+  cursor: pointer;
+}
+
 .textcent {
   text-align: center;
 }

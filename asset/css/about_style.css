@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+i:hover {
+  cursor: pointer;
+}
+
 .textcent {
   text-align: center;
 }
@@ -148,6 +152,10 @@ a {
   padding: 8px;
   border-radius: 50%;
 
+}
+
+.box-user-icon a i {
+  color: black;
 }
 
 .search {

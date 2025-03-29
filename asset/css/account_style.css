@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+.i:hover {
+  cursor: pointer;
+}
+
 .textcent {
   text-align: center;
 }
@@ -131,7 +135,11 @@ a {
   align-items: center;
 }
 
-.box-user-icon i:last-child {
+.box-user-icon a i {
+  color: black;
+}
+
+.box-user-icon .user {
   margin-left: 20px;
   padding: 8px;
   color: white;
@@ -335,7 +343,7 @@ a {
 }
 
 .qr-img {
-  width:100%;
+  width: 100%;
   grid-row-start: 1;
   grid-row-end: 3;
 }

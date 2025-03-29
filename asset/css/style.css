@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+i:hover {
+  cursor: pointer;
+}
+
 .textcent {
   text-align: center;
 }
@@ -135,7 +139,9 @@ a {
   padding: 0 10px;
 
 }
-
+.box-user a i{
+  color: black;
+}
 .search {
   width: 78%;
   height: 30px;
@@ -424,6 +430,8 @@ a {
   position: absolute;
   bottom: 0;
   font-size: 14px;
+  border-radius: 0 0 4px 4px;
+
 }
 
 .product-item:hover .add-cart {
@@ -518,10 +526,6 @@ a {
 
 .product-categories {
   position: relative;
-}
-
-.product-categories img:hover {
-  background-color: #db4344;
 }
 
 .product-categories p {
@@ -819,7 +823,7 @@ a {
 }
 
 .qr-img {
-  width:100%;
+  width: 100%;
   grid-row-start: 1;
   grid-row-end: 3;
 }
