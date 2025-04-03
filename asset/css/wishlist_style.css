@@ -326,7 +326,9 @@ i:hover {
   font-size: 14px;
   border-radius: 0 0 4px 4px;
 }
-
+.add-cart i{
+  font-size: 14px;
+}
 .detail-product {
   margin-top: 18px;
 }

@@ -217,6 +217,7 @@ i:hover {
   text-transform: capitalize;
   font-size: 44px;
   font-weight: 450;
+  padding-bottom: 30px;
 }
 
 .story-content-img {
@@ -226,7 +227,6 @@ i:hover {
 
 .story-content-img img {
   width: 100%;
-
 }
 
 
